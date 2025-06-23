@@ -18,8 +18,8 @@ public class BaseTest {
             .setAutoGrantPermissions(true);
         
         // Add your app package and activity here
-        // options.setAppPackage("com.example.app");
-        // options.setAppActivity("com.example.app.MainActivity");
+        options.setAppPackage("com.saucelabs.mydemoapp.android");
+        options.setAppActivity("com.saucelabs.mydemoapp.android.view.activities.MainActivity");
 
         driver = new AndroidDriver(
             new URL("http://127.0.0.1:4723"), 
